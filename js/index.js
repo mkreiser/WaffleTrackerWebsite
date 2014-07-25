@@ -58,6 +58,10 @@ $('#wButton').on('click',function(){
     $('#wContent').show();
 });
 
+$('.cardHead4').on('click',function(){
+    window.open("https://play.google.com/store/apps/details?id=com.mikekreiser.waffletracker");
+});
+
 $('.cardHead').on('click',function(){
     waffleAddress = $('#waffleForm').val();
     window.localStorage.setItem("waffle", waffleAddress);
