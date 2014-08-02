@@ -9,6 +9,17 @@
     <script src="js/ionic.bundle.js"></script>
     <script src="js/ionic.js"></script>
 
+    <script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+	  ga('create', 'UA-53247724-1', 'auto');
+	  ga('send', 'pageview');
+
+	</script>
+
     <link rel="stylesheet" href="css/ionic.css">
     <link rel="stylesheet" type="text/css" href="styles.css" />
 </head>
@@ -20,6 +31,7 @@
 	  <span class="tab-item" id="x11Button">X11</span>
 	  <span class="tab-item" id="x13Button">X13</span>
 	  <span class="tab-item" id="wButton">Wallet</span>
+	  <span class="tab-item" onclick="window.open('../index.html')">My Site</span>
 	</div>
 
 	<div class="list card" id="sContent">
@@ -28,7 +40,7 @@
 		<div class="item">Sent: <span id="scryptSent"></span></div>
 		<div class="item">Unsent: <span id="scryptUnsent"></span></div>
 		<div class="item">Total: <span id="scryptTotal"></span></div>
-		<div class="item item-divider cardHead4" id="cardHead3">Get on Google Play Store<div style="float:right;padding-right:10px;"><i class="icon ion-android-playstore"></i></div></div>
+		<div class="item item-divider cardHead4" id="cardHead3">Get for Android on Google Play<div style="float:right;padding-right:10px;"><i class="icon ion-android-playstore"></i></div></div>
 	</div>
 
 	<div class="list card" id="nContent">
@@ -37,7 +49,7 @@
 		<div class="item">Sent: <span id="scryptnSent"></span></div>
 		<div class="item">Unsent: <span id="scryptnUnsent"></span></div>
 		<div class="item">Total: <span id="scryptnTotal"></span></div>
-		<div class="item item-divider cardHead4" id="cardHead3">Get on Google Play Store<div style="float:right;padding-right:10px;"><i class="icon ion-android-playstore"></i></div></div>
+		<div class="item item-divider cardHead4" id="cardHead3">Get for Android on Google Play<div style="float:right;padding-right:10px;"><i class="icon ion-android-playstore"></i></div></div>
 	</div>
 
 	<div class="list card" id="x11Content">
@@ -46,7 +58,7 @@
 		<div class="item">Sent: <span id="x11Sent"></span></div>
 		<div class="item">Unsent: <span id="x11Unsent"></span></div>
 		<div class="item">Total: <span id="x11Total"></span></div>
-		<div class="item item-divider cardHead4" id="cardHead3">Get on Google Play Store<div style="float:right;padding-right:10px;"><i class="icon ion-android-playstore"></i></div></div>
+		<div class="item item-divider cardHead4" id="cardHead3">Get for Android on Google Play<div style="float:right;padding-right:10px;"><i class="icon ion-android-playstore"></i></div></div>
 	</div>
 
 	<div class="list card" id="x13Content">
@@ -55,7 +67,7 @@
 		<div class="item">Sent: <span id="x13Sent"></span></div>
 		<div class="item">Unsent: <span id="x13Unsent"></span></div>
 		<div class="item">Total: <span id="x13Total"></span></div>
-		<div class="item item-divider cardHead4" id="cardHead3">Get on Google Play Store<div style="float:right;padding-right:10px;"><i class="icon ion-android-playstore"></i></div></div>
+		<div class="item item-divider cardHead4" id="cardHead3">Get for Android on Google Play<div style="float:right;padding-right:10px;"><i class="icon ion-android-playstore"></i></div></div>
 	</div>
 
 	<div class="list card" id="wContent">
@@ -66,7 +78,7 @@
 		<div class="item">BTC/USD: <span id="bitRate"></span></div>
 		<div class="item">Balance: <span id="bitAm"></span></div>
 		<div class="item">USD Equiv: <span id="usdAm"></span></div>
-		<div class="item item-divider cardHead4" id="cardHead3">Get on Google Play Store<div style="float:right;padding-right:10px;"><i class="icon ion-android-playstore"></i></div></div>
+		<div class="item item-divider cardHead4" id="cardHead3">Get for Android on Google Play<div style="float:right;padding-right:10px;"><i class="icon ion-android-playstore"></i></div></div>
 	</div>
 	
 

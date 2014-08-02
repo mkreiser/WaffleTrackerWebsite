@@ -134,7 +134,7 @@ input[type="text"]{
 	top: 40px; left: 0; bottom: 0; right: 0;
 }
 
-@media all and (max-width:900px) and (min-width: 621px){
+@media all and (max-width:900px) and (min-width: 641px){
 	.item{
 		font-size: 40px;
 		line-height: 100%;
@@ -191,7 +191,7 @@ input[type="text"]{
 	}
 }
 
-@media all and (max-width:620px) and (min-width: 421px){
+@media all and (max-width:640px) and (min-width: 491px){
 	.item{
 		font-size: 28px;
 		line-height: 100%;
@@ -249,7 +249,7 @@ input[type="text"]{
 	}
 }
 
-@media all and (max-width:420px){
+@media all and (max-width:490px){
 	.item{
 		font-size: 20px;
 		line-height: 100%;
